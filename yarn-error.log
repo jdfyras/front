@@ -1,0 +1,77 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe D:\PFE\FRONTEND\e-fact\.yarn\releases\yarn-1.22.10.cjs add @angular/material @angular/cdk @angular/annimations hammerjs
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-15.0.2\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\fyras\AppData\Local\Microsoft\WindowsApps;;D:\Program Files\JetBrains\IntelliJ IDEA 2020.3.1\bin;;C:\Users\fyras\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fyras\AppData\Roaming\npm;C:\Program Files (x86)\GitHub CLI\
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@angular%2fannimations: Not found
+      at Request.params.callback [as _callback] (D:\PFE\FRONTEND\e-fact\.yarn\releases\yarn-1.22.10.cjs:78518:18)
+      at Request.self.callback (D:\PFE\FRONTEND\e-fact\.yarn\releases\yarn-1.22.10.cjs:135160:22)
+      at Request.emit (events.js:376:20)
+      at Request.<anonymous> (D:\PFE\FRONTEND\e-fact\.yarn\releases\yarn-1.22.10.cjs:136132:10)
+      at Request.emit (events.js:376:20)
+      at IncomingMessage.<anonymous> (D:\PFE\FRONTEND\e-fact\.yarn\releases\yarn-1.22.10.cjs:136054:12)
+      at Object.onceWrapper (events.js:482:28)
+      at IncomingMessage.emit (events.js:388:22)
+      at endReadableNT (internal/streams/readable.js:1336:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "e-fact",
+    "version": "0.0.0",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "watch": "ng build --watch --configuration development",
+      "test": "ng test"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/animations": "~12.0.1",
+      "@angular/common": "~12.0.1",
+      "@angular/compiler": "~12.0.1",
+      "@angular/core": "~12.0.1",
+      "@angular/forms": "~12.0.1",
+      "@angular/platform-browser": "~12.0.1",
+      "@angular/platform-browser-dynamic": "~12.0.1",
+      "@angular/router": "~12.0.1",
+      "rxjs": "~6.6.0",
+      "tslib": "^2.1.0",
+      "zone.js": "~0.11.4"
+    },
+    "devDependencies": {
+      "@angular-devkit/build-angular": "~12.0.1",
+      "@angular/cli": "~12.0.1",
+      "@angular/compiler-cli": "~12.0.1",
+      "@types/jasmine": "~3.6.0",
+      "@types/node": "^12.11.1",
+      "jasmine-core": "~3.7.0",
+      "karma": "~6.3.0",
+      "karma-chrome-launcher": "~3.1.0",
+      "karma-coverage": "~2.0.3",
+      "karma-jasmine": "~4.0.0",
+      "karma-jasmine-html-reporter": "^1.5.0",
+      "typescript": "~4.2.3"
+    },
+    "main": "index.js",
+    "author": "jday firas <jdfyras@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
